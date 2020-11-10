@@ -1,0 +1,77 @@
+:root {
+  --base: #555555;
+  --primary: #ff4e50;
+  --secondary: #f9d423;
+  --light: #f1f1f1;
+}
+
+html {
+  color: var(--base);
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h1 {
+  color: var(--primary);
+}
+
+p {
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin: 0 1rem 2rem;
+  background-color: var(--light);
+  border-radius: 2rem;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.options button {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--base);
+  line-height: 1.5;
+  width: calc(50% - 2rem);
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  border: 0;
+  background: linear-gradient(90deg, var(--secondary), var(--primary));
+  transition: .35s ease;
+  transition-property: box-shadow;
+}
+
+.options button:hover {
+  box-shadow: inset 0 -5em 0 0 var(--primary);
+}
+
+.options span {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, .85);
+  border-radius: 50%;
+}
+
+.options .clear-btn {
+  width: 100%;
+  color: var(--light);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
