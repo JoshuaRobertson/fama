@@ -21,7 +21,7 @@ function setStatus() {
       text = 'On a call';
       break;
     case 3:
-      emoji = ':timer_clock:';
+      emoji = ':alarm_clock:';
       text = 'Be right back';
       break;
     case 4:

@@ -62,9 +62,12 @@ p {
 }
 
 .options span {
-  width: 4.5rem;
-  height: 4.5rem;
-  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   background-color: rgba(255, 255, 255, .85);
   border-radius: 50%;
 }
