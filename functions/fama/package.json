@@ -1,0 +1,14 @@
+{
+  "name": "fama",
+  "version": "0.1.0",
+  "description": "Set your Slack status",
+  "main": "fama.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Robertson",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

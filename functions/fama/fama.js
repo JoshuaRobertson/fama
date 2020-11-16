@@ -1,3 +1,7 @@
+require('dotenv').config()
+
+const fetch = require('node-fetch')
+
 // Logic testing
 exports.handler = function(event, context, callback) {
 	return {
